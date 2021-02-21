@@ -258,8 +258,5 @@ https?:\/\/app.bilibili.com\/x\/v2\/space\/bangumi url script-request-header htt
 # 彩云天气 (By Peng-YM)
 https://weather-data.apple.com url script-request-header https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/caiyun.js
 
-# 电信余额提醒 (By id77)
-^https?:\/\/e\.189\.cn\/store\/user\/balance_new\.do url script-request-header https://raw.githubusercontent.com/id77/QuantumultX/master/task/10000.cookie.js
-
 # Geekhub (By id77)
 ^https:\/\/geekhub\.com\/checkins\/start url script-request-header https://raw.githubusercontent.com/id77/QuantumultX/master/task/geekhub.cookie.js
