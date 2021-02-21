@@ -23,9 +23,6 @@ https?:\/\/c\.tieba\.baidu\.com\/c\/s\/login url script-request-header https://r
 # 网易云签到获取cookie(by chavyleung)
 ^https:\/\/music.163.com\/weapi\/user\/level url script-request-body https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/quanx/neteasemusic.cookie.js
 
-# 什么值得买获取cookie(by chavyleung)
-^https:\/\/www\.smzdm\.com\/?.? url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/smzdm/quanx/smzdm.cookie.js
-
 # V2ex获取cookie
 ^https:\/\/www\.v2ex\.com\/mission\/daily url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/v2ex/quanx/v2ex.cookie.js
 
@@ -111,21 +108,8 @@ https?:\/\/c\.tieba\.baidu\.com\/c\/s\/login url script-request-header https://r
 # 叮咚买菜
 ^https:\/\/maicai.api.ddxq.mobi\/point\/home url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/mcdd/mcdd.cookie.js
 
-# 分期乐
-^https://pm\.m\.fenqile\.com/route0014/star/sign/sign.json url script-request-body https://raw.githubusercontent.com/chavyleung/scripts/master/fenqile/fenqile.cookie.js
-^https:\/\/pm\.m\.fenqile\.com/route0014\/app\/tab\/privilege\/convertTaskReward.json url script-request-body https://raw.githubusercontent.com/chavyleung/scripts/master/fenqile/fenqile.cookie.js
-
-# 樊登读书
-^https://api\.dushu\.io/CheckIn url script-request-body https://raw.githubusercontent.com/chavyleung/scripts/master/fandeng/fandeng.cookie.js
-
 # 全民K歌
 ^https://node\.kg\.qq\.com/webapp/proxy? url script-request-body https://raw.githubusercontent.com/chavyleung/scripts/master/qmkg/qmkg.cookie.js
-
-# 蔚来
-^https:\/\/app\.nio\.com\/api\/1\/app\/daily_checkin url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/nio/nio.cookie.js
-
-# 合创
-^https:\/\/wxprdapplet\.gac-nio\.com\/community\/userSignIn\/simpleAuth\/front\/.*\/sign$ url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/hycan/hycan.cookie.js
 
 # 京东到家
 ;^https:\/\/daojia.jd.com/client(.*?)functionId=signin(.*?)userSigninNew url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/jddj/jddj.cookie.js
@@ -138,9 +122,6 @@ https?:\/\/c\.tieba\.baidu\.com\/c\/s\/login url script-request-header https://r
 
 # WPS
 ^https:\/\/zt.wps.cn\/2018\/docer_check_in\/api\/act_list url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/wps/wps.cookie.js
-
-# 七猫小说
-^https:\/\/xiaoshuo\.qm989\.com url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/qimao/qmnovel.js
 
 # 苏宁易购
 ^https:\/\/passport.suning.com\/ids\/login$ url script-request-body https://raw.githubusercontent.com/chavyleung/scripts/master/suning/suning.cookie.js
@@ -193,17 +174,11 @@ https:\/\/m\.ctrip\.com\/restapi\/soa2\/14946\/json\/userBaseInfo url script-req
 # 工银e生活 (By @barrymchen)
 ^https:\/\/icbc1\.wlphp\.com:8444\/js\/api\/index\/signIn url script-request-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/icbc_cookie.js
 
-# 微信小程序-同程艺龙 (By @barrymchen)
-^https:\/\/wx\.17u\.cn\/wcsign\/sign\/GetSignInfo url script-request-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/tongc_cookie.js
-
 # 京东到家 (By @barrymchen, @GideonSenku & @Macsuny)
 https:\/\/daojia\.jd\.com\/client\?_jdrandom=\d{13}&functionId=%2Fsignin url script-request-header https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jddj.js
 
 # 快手极速版 (By @Macsuny)
 https:\/\/nebula\.kuaishou\.com\/rest\/n\/nebula\/activity\/earn\/overview url script-request-header https://raw.githubusercontent.com/Sunert/Scripts/master/Task/kuaishou.js
-
-# 微信小程序-来客有礼 (By @Macsuny)
-https:\/\/draw\.jdfcloud\.com\/\/api\/bean\/square\/silverBean\/task\/get\? url script-request-header https://raw.githubusercontent.com/Sunert/Scripts/master/Task/lkyl.js
 
 # 电视家 (By @Macsuny)
 http:\/\/api\.gaoqingdianshi\.com\/api\/v\d\/sign\/signin url script-request-header https://raw.githubusercontent.com/Sunert/Scripts/master/Task/dianshijia.js
